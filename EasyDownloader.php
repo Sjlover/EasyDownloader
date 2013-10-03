@@ -357,6 +357,12 @@ class EasyDownloader
         }
     }
 
+    /**
+     * get time from file
+     *
+     * @access public
+     * @return integer
+     */
     public function getFileTime()
     {
          if( $time = filemtime( $this->filePath ) )
