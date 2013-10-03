@@ -16,7 +16,7 @@ $config = array(
 );
 
 $users = array(
-     'saeed' => array('username' => 'admin', 'password' => 'admin', 'maxSpeed' => 100, 'resume' => true),
+     'admin' => array('username' => 'admin', 'password' => 'admin', 'maxSpeed' => 100, 'resume' => true),
      'guest' => array('username' => 'guest', 'password' => 'guest', 'maxSpeed' => 20, 'resume' => false),
 );
 
