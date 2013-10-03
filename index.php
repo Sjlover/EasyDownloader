@@ -22,7 +22,7 @@ $users = array(
 
 $ED = new EasyDownloader( $config );
 
-$ED->login( $users);
+$ED->login( $users );
 
 //echo $ED->getFileSize();  get file size by byte
 
